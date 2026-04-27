@@ -16,17 +16,6 @@ network:
     - defaults
     - python
     - "pypi.org"
-
-
-runtimes:
-  python:
-    version: "3.12"
-    action-repo: "actions/setup-python"
-
-engine:
-  id: copilot
-  version: 1.0.34
-  model: gpt-5.4
 ---
 # Automated Insurance Claim Processor
 
@@ -40,4 +29,4 @@ You are an automated insurance claims agent. Whenever a push event triggers this
 6. Read the newly generated `.md` file in the `converted/` folder.
 7. Apply the rules from the instructions to analyze the document.
 8. Save your final output strictly as a new file named `analysis.json` in the root directory.
-9. DO NOT use the bash tool to create a pull request. Instead, use your configured `create-pull-request` safe-output tool to propose adding the `analysis.json` file to the `main` branch. Provide a clear PR title and summarize the reasoning for the Approval/Denial in the PR description.
+9. Create a pull request targeting the `main` branch that contains ONLY the newly generated `analysis.json` file. Provide a clear PR title and summarize the reasoning for the Approval/Denial in the PR description.
