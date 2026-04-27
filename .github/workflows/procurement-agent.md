@@ -1,4 +1,8 @@
 ---
+engine:
+  id: copilot
+  version: latest                       # defaults to latest
+  model: gpt-5 
 on:
   push:
     branches: [workflow]
