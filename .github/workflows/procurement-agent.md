@@ -16,16 +16,6 @@ network:
     - defaults
     - python
     - "pypi.org"
-
-runtimes:
-  python:
-    version: "3.12"
-    action-repo: "actions/setup-python"
-
-engine:
-  id: copilot
-  version: 1.0.34
-  model: gpt-5.4
 ---
 # Automated Insurance Claim Processor
 
