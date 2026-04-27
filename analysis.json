@@ -1,0 +1,6 @@
+{
+  "patient_name": "Jane Doe",
+  "procedure": "Physical Therapy",
+  "status": "Approved",
+  "reasoning": "Physical Therapy for post-operative rehabilitation of a torn meniscus is not listed among the denied procedures (Cosmetic Surgery, Experimental Treatments, Out-of-network Consultations), making it eligible for approval."
+}
