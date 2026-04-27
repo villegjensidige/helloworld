@@ -2,7 +2,7 @@
 engine:
   id: copilot
   version: latest                       # defaults to latest
-  model: gpt-5 
+  model: gpt-5.4
 on:
   push:
     branches: [workflow]
