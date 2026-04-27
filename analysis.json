@@ -1,0 +1,6 @@
+{
+  "patient_name": "Jane Doe",
+  "procedure": "Physical Therapy",
+  "status": "Approved",
+  "reasoning": "Physical Therapy is listed in the Approved Procedures Register and does not appear in the Denied Procedures (Exceptions) list."
+}
