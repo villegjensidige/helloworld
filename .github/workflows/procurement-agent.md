@@ -1,8 +1,4 @@
 ---
-engine:
-  id: copilot
-  version: latest                       # defaults to latest
-  model: gpt-5.4
 on:
   push:
     branches: [workflow]
@@ -19,6 +15,17 @@ network:
   allowed:
     - defaults
     - python
+    - "pypi.org"
+
+runtimes:
+  python:
+    version: "3.12"
+    action-repo: "actions/setup-python"
+
+engine:
+  id: copilot
+  version: 1.0.34
+  model: gpt-5.4
 ---
 # Automated Insurance Claim Processor
 
